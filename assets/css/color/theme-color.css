@@ -67,10 +67,11 @@
 .floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn:hover,
 .floor-plans-tab-style2 .tab-button-column .tab-buttons li.tab-btn.active-btn,
 .footer-social-link ul li a:hover,
-.single-service-style1 .text-holder h3 a,
+.single-amenities-box-style2 .text-holder h3 a,
 .single-testimonial-style1 .text-holder .text-box .icon-box span,
 .accordion-box.style2 .accordion .accord-btn.active h4{
-    color: #e6bc73;
+    /* color: #e6bc73; */
+    color:#06a4f9
 }
 
 
@@ -132,7 +133,7 @@
 .single-gallery-item .img-holder:before,
 .single-gallery-item .img-holder:after,
 .video-holder-box .icon:after {
-    background: #e6bc73;
+    background: #06a4f9;
 }
 
 

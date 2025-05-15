@@ -23,7 +23,7 @@
 	left: 0px;
 	width: 100%;
 	padding: 0px 0px;
-    background: rgba(23, 23, 23, 0.95);
+    background: #000;
 	opacity: 0;
     visibility: hidden;
 	transition: all 500ms ease;
@@ -70,7 +70,7 @@
 }
 .sticky-header .main-menu .navigation> li {}
 .sticky-header .main-menu .navigation> li> a {
-    color: #ffffff;
+    color: #fff;
     padding: 35px 0;
 }
 
@@ -95,9 +95,12 @@
 .header .outer-box {
     position: relative;
     display: flex;
-    padding: 32px 0 33px;
+    padding: 32px 0 32px;
 }
 
+.sticky-header .main-clearfix{
+    padding:32px 0px;
+}
 
 .header-left {
     position: relative;
@@ -1059,7 +1062,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 57px 0 43px;
+    padding: 43px 0 43px;
 }
 .header-button-style5 .phn-number{
     position: relative;

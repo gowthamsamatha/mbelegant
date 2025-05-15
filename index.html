@@ -144,9 +144,17 @@
                                             </li>
                                             <li><a href="#layout">Layout</a></li>
 
-                                            <li><a href="#contact"
-                                                    style="color: goldenrod;font-weight: bolder;font-size: x-large">Contact
-                                                    Us</a></li>
+                                            <!-- <li><a href="#contact"
+                                                    style="color: #3db0ef;font-weight: bolder;font-size: x-large">Contact
+                                                    Us</a></li> -->
+                                            <li>
+                                                 <div class="header-button-style5 style5instyle6">
+                        <div class="phn-number"><a href="tel:123456789"><span class="icon-phone"></span>1-258-985-703</a></div>
+                        <div class="button-box">
+                            <a class="btn-one" href="#"><span class="txt">Schedule A visit</span></a>
+                        </div>  
+                    </div>
+                                            </li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -169,7 +177,7 @@
             <!--Sticky Header-->
             <div class="sticky-header">
                 <div class="container">
-                    <div class="clearfix">
+                    <div class="main-clearfix">
                         <!--Logo-->
                         <div class="logo float-left">
                             <a href="index.html" class="img-responsive"><img src="assets/images/logo.png" alt=""
@@ -215,25 +223,17 @@
 
 
         <!-- Start Main Slider -->
-        <section class="main-slider style1">
+        <section class="main-slider">
             <div class="slider-box">
 
                 <div class="">
                     <!-- Slide -->
                     <div class="slide">
-                        <div class="image-layer" style="background-image:url(assets/images/banner.jpeg)"></div>
-                        <div class="auto-container">
-                            <div class="content">
-                                <div class="big-title">
-                                    <h2>Creatively Designed &<br> Inspired Amenities</h2>
-                                </div>
-                                <h3>Best Architectures With Family- Friendly Environment</h3>
-                                <div class="btns-box">
-                                    <a class="btn-one" href="#"><span class="txt">learn More</span></a>
-                                    <a class="btn-one style2" href="#"><span class="txt">explore area</span></a>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="image-layer" style="background: url('assets/images/banner.jpeg'),#b3def0;background-size: contain; background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;height:100vh
+  "></div>
+                        
                     </div>
                     <!-- Slide -->
                     <!-- <div class="slide">
@@ -270,6 +270,15 @@
 
                 </div>
             </div>
+            <div class="overlay p-md-5 p-0" style="position:absolute;top:0;left:0;width: 100%;
+               height: 100%;
+               background-color:  rgba(0, 0, 0, 0.5);
+               z-index: 10;">
+
+               <h2 class="text-white layer-outer wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms" style="position:absolute;bottom:10px">Discover Elegant Living <span style="color:goldenrod" class="fw-bold">—</span> Spacious 3 BHKs <span style="color:goldenrod" class="fw-bold">—</span> Ready to Move In</h2>
+
+
+            </div>
         </section>
         <!-- End Main Slider -->
 
@@ -284,7 +293,7 @@
                         <span class="icon-design"></span>
                     </div>
                     <div class="sub-title">
-                        <h4>Welcome To Sreevari Sannidhi</h4>
+                        <h4>Welcome To MB Elegant</h4>
                     </div>
                     <h2>Property Overview</h2>
                 </div>
@@ -300,19 +309,40 @@
                                         <div class="img-box">
                                             <div class="inner flex-grow-1 d-flex flex-column">
 
-                                                <img src="assets/images/about-us.jpg" alt="">
+                                                <img src="assets/images/about.jpeg" alt="">
                                             </div>
                                         </div>
                                         <div class="text-box wow slideInRight" data-wow-delay="100ms"
-                                        data-wow-duration="2500ms" style="position: relative;left: 0;z-index: 1;">
-                                            <h2>A Dream Living Space</h2>
-                                            <p><strong>Shreevari Sannidhi</strong> by Shreevan Constructions is
-                                                strategically located in one of the Bangalore's most developing hot
-                                                spot. The Projects if facing 40 ft main road, just 3 kms from outer ring
-                                                road Shreevari Sannidhi is planned in such a way that your neighbors are
-                                                not anymore no common walls to ensure you have maximum natural light and
-                                                fresh air It is designed with maximum open space and landscaping around
-                                                the apartments
+                                            data-wow-duration="2500ms" style="position: relative;left: 0;z-index: 1;">
+                                            <h2>Luxury Living That’s Ready and Waiting</h2>
+                                            <p class="mt-4">MNM MB Elegant is a premium residential project that redefines luxury
+                                                living in the heart of KR Puram, Bangalore. Strategically located in
+                                                Medahalli, this exclusive enclave of ready-to-move-in 3 BHK apartments
+                                                blends contemporary architecture with functional design to offer you the
+                                                comfort and convenience your family deserves.
+
+
+
+                                            </p>
+                                            <p class="mt-">
+                                                
+                                                Built by MNM Builders, a name known for quality and trust, MB Elegant is
+                                                thoughtfully designed to deliver a high standard of urban living while
+                                                ensuring peace and privacy. Each home is spacious, well-ventilated, and
+                                                finished with top-class materials, creating the perfect ambiance for
+                                                modern families.
+                                            </p>
+                                            <p class="mt-2">Approved by BBMP and equipped with an E-Khata, the project ensures a
+                                                transparent and secure investment. With prices starting from just ₹81
+                                                lakhs, MNM MB Elegant is not just a home—it’s a lifestyle choice.
+
+                                              
+
+                                            </p>
+                                            <p class="mt-">
+                                                  Whether you’re looking to upgrade your living or make a smart real
+                                                estate investment, MNM MB Elegant is where sophistication meets
+                                                affordability.
                                             </p>
                                             <div class="theme-shape pdtop30">
                                                 <ul class="theme-shape-box clearfix text-center">
@@ -329,7 +359,7 @@
                                 </ul>
                             </div>
 
-                            <div class="bottom">
+                            <!-- <div class="bottom">
                                 <ul>
                                     <li>
                                         <div class="text-box wow slideInLeft" data-wow-delay="100ms"
@@ -364,7 +394,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -373,91 +403,7 @@
         </section>
         <!--End Welcome Style1 Area-->
 
-        <section class="fact-counter-area">
-            <div class="container-box" style="background-color: antiquewhite;">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-xl-12">
-                            <div class="fact-counter">
-                                <ul class="fact-counter-box clearfix">
-                                    <!--Start Single Fact Counter-->
-                                    <li class="single-fact-counter wow fadeInUp text-center" data-wow-delay="100ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="count-box">
-                                            <h2>
-                                                <span class="timer" data-from="1" data-to="40" data-speed="5000"
-                                                    data-refresh-interval="50">40</span>
-                                            </h2>
-                                            <div class="sub-title">
-                                                <h5>Flats</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!--End Single Fact Counter-->
-                                    <!--Start Single Fact Counter-->
-                                    <li class="single-fact-counter wow fadeInUp text-center" data-wow-delay="300ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="count-box">
-                                            <h2>
-                                                <span class="timer" data-from="1" data-to="24" data-speed="5000"
-                                                    data-refresh-interval="50">24</span>
-                                            </h2>
-                                            <div class="sub-title">
-                                                <h5>Two Bedroom Homes</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!--End Single Fact Counter-->
-                                    <!--Start Single Fact Counter-->
-                                    <li class="single-fact-counter wow fadeInUp text-center" data-wow-delay="500ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="count-box">
-                                            <h2>
-                                                <span class="timer" data-from="1" data-to="16" data-speed="5000"
-                                                    data-refresh-interval="50">16</span>
-                                            </h2>
-                                            <div class="sub-title">
-                                                <h5>Three Bedroom Homes</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!--End Single Fact Counter-->
-                                    <!--Start Single Fact Counter-->
-                                    <li class="single-fact-counter wow fadeInUp text-center" data-wow-delay="700ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="count-box">
-                                            <h2>
-                                                <span class="timer" data-from="1" data-to="10" data-speed="5000"
-                                                    data-refresh-interval="50">10</span>
-                                            </h2>
-                                            <div class="sub-title">
-                                                <h5>Homes Per Floor</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="single-fact-counter wow fadeInUp text-center" data-wow-delay="700ms"
-                                        data-wow-duration="1500ms">
-                                        <div class="count-box">
-                                            <h2>
-                                                <span class="timer" data-from="1145" data-to="1573" data-speed="5000"
-                                                    data-refresh-interval="50">1145 - 1573
-                                                </span>
-                                            </h2>
-                                            <div class="sub-title">
-                                                <h5>sq ft in size option</h5>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <!--End Single Fact Counter-->
-                                </ul>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
+      
 
         <!--Start amenities Style1 Area-->
         <!-- <section class="amenities-style1-area">
@@ -518,161 +464,111 @@
         <section class="more-amenities-area mt-5" id="amenities">
             <div class="container">
                 <div class="row">
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2" data-wow-delay="100ms"
-                        data-wow-duration="2500ms">
-                            <div class="icon">
-                                <i class="fas fa-child thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">CHILDREN'S PLAY AREA</a></h3>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2" data-wow-delay="100ms" data-wow-duration="2500ms">
+            <div class="icon">
+                <i class="fas fa-shield-alt thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">ROUND THE CLOCK SECURITY</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-dumbbell thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">GYMNASIUM</a></h3>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-video thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">CCTV PROVISIONS</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-users thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">MULTIPURPOSE HALL</a></h3>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-tint thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">RAIN WATER HARVESTING</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-tree thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">LANDSCAPE GARDEN</a></h3>
-                              
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-car thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">COVERED CAR PARKING</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-tint thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">RAIN WATER HARVESTING</a></h3>
-                           
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-elevator thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">ONE LIFT OF PASSENGERS</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-phone-alt thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">INTERCOM FACILITY</a></h3>
-                               
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-plug thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">GENERATOR POWER BACKUP</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-shield-alt thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">24 ROUND THE CLOCK SECURITY</a></h3>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-compass thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">VASTU COMPLIANCE</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-camera thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">CCTV SURVEILLANCE</a></h3>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
+    <!--Start Single Amenities Box Style2-->
+    <div class="col-xl-4 col-lg-6">
+        <div class="single-amenities-box-style2">
+            <div class="icon">
+                <i class="fas fa-fire-extinguisher thm_clr1"></i>
+            </div>
+            <div class="title">
+                <h3><a href="#">FIRE FIGHTING EQUIPMENT</a></h3>
+            </div>
+        </div>
+    </div>
+    <!--End Single Amenities Box Style2-->
+</div>
 
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-elevator thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">TWO LIFTS OF 6 PASSENGERS</a></h3>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
-
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-plug thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">GENERATOR POWER BACK UP</a></h3>
-                            
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
-
-                    <!--Start Single Amenities Box Style2-->
-                    <div class="col-xl-4 col-lg-6">
-                        <div class="single-amenities-box-style2">
-                            <div class="icon">
-                                <i class="fas fa-car thm_clr1"></i>
-                            </div>
-                            <div class="title">
-                                <h3><a href="#">COVERED CAR PARKING</a></h3>
-                           
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Amenities Box Style2-->
-                </div>
 
 
             </div>
@@ -680,294 +576,226 @@
         <!--End More amenities Area-->
 
         <!-- Start Service Style1 Area -->
-        <section class="service-style1-area" id="specifications">
-            <div class="container-box" style="background-color: black;">
-                <h1 class="text-center mb-3" style="color:#e6bc73;">SPECIFICATIONS</h1>
-                <div class="container">
-                    <div class="row">
+      <section class="service-style1-area" id="specifications">
+  <div class="container-box">
+    <h1 class="text-center mb-3" style="color:#e6bc73;">SPECIFICATIONS</h1>
+    <div class="container">
+      <div class="row">
 
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 d-flex flex-column h-100">
-                                <div class="inner d-flex flex-column">
-                                    <div class="icon-holder text-center"><i class="fa-solid fa-building"></i></div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">STRUCTURE</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>SRCC framed structure with seismic compliance resistance.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 d-flex flex-column h-100">
-                                <div class="inner flex-grow-1 d-flex flex-column">
-                                    <div class="icon-holder"><i class="fa-solid fa-city"></i></div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">SUPER STRUCTURE</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>6” Solid blocks/Light Weight for external walls.<br>4” Solid blocks/Light
-                                            Weight for internal walls.<br>No common walls.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-regular fa-window-maximize"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">WINDOWS</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>UPVC windows with mosquito mesh provision & safety MS grills for all windows.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-border-all"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">FLOORING</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Vitrified tiles of premium quality for living area, bedroom &
-                                            kitchen.<br>Antiskid tiles for toilets, balconies, & utilities.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-faucet"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">WATER SUPPLY</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>24 hrs water deep tube well, sump & over head tank.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-utensils"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">KITCHEN</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Granite kitchen platform with stainless steel sink.<br>2 feet height glazed
-                                            tiles dado above the platform.<br>Provision for washing machine, water
-                                            purifier, chimney and electrical hub.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-toilet"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">TOILET</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Ceramic glazed wall tiles and ceramic flooring.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-sink"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">SANITARY WARE</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>European commode, washbasin, CP fittings and diverters for all toilets of
-                                            parryware/Soncerra/Jaquar or equivalent.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-brush"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">PLASTERING</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Internal wall: 1:5 C.M. with lime rendering smooth finish.<br>External wall:
-                                            smooth sponge finish cement plastering.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-paint-roller"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">PAINTING</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Inside: One coat of primer with two coats tractor emulsion
-                                            paints.<br>Outside: One coat of primer & two coats Asian apex or equivalent
-                                            paints.<br>Main Door: Teak polish and enamel paint for other doors and
-                                            windows.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-door-closed"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">DOORS</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Main Door: Teak wood frame with teak wood shutter.<br>Other Door: Saal wood
-                                            frame with moulded skin doors with standard hardware fittings.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-lock"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">LOCKS</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Godrej locks or equivalent for all doors.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-bolt"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">ELECTRICAL</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Concealed copper wiring (Anchor or equivalent) with necessary points in each
-                                            room.<br>15 amps power plug points in kitchen and toilets.<br>Individual TV
-                                            & telephone points in main hall & master bedroom, AC points.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-elevator"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">LIFT & LOBBY</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Entrance lobby finished with granite flooring staircase with
-                                            railings.<br>Two lifts of Kone/Johnson or equivalent of 6 passenger
-                                            capacity with ARD system.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-car"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">CAR PARKING</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>One car parking for each flat.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-md-6 col-lg-4 mb-3">
-                            <div class="single-service-style1 flex-fill d-flex flex-column h-100">
-
-                                <div class="inner flex-grow-1 d-flex flex-column">
-
-                                    <div class="icon-holder">
-                                        <i class="fa-solid fa-battery-full"></i>
-                                    </div>
-                                    <div class="text-holder">
-                                        <h3><a href="#">POWER BACK-UP</a></h3>
-                                        <div class="border-box"></div>
-                                        <p>Power back-up for each flat and additional power back-up for lifts,
-                                            water pumps & common area lighting.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-
-
-
-
-
-
-
-
-                    </div>
-
-
-
-
-
-
-                </div>
+        <!-- FRAMED STRUCTURE -->
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-building"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">FRAMED STRUCTURE</a></h3>
+                <div class="border-box"></div>
+                <p>RCC framed structure</p>
+              </div>
             </div>
+          </div>
+        </div>
 
-        </section>
-        <!-- End Service Style1 Area -->
+        <!-- SUPER STRUCTURE -->
+      <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-city"></i></div>
+              <div class="text-holder">
+                 <h3 class="animate-h3"><a href="#">SUPER STRUCTURE</a></h3>
+                <div class="border-box"></div>
+                     <p>6" Solid concrete blocks for external walls<br>4" Solid concrete blocks for internal walls<br>No common walls.</p>
+              </div>
+            </div>
+          </div>
+        </div>
 
+        <!-- PLASTERING -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-brush"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">PLASTERING</a></h3>
+                <div class="border-box"></div>
+                <p>Internal wall: 1:5 C.M. with Cement rendering smooth finish.<br>External wall: smooth sponge finish cement plastering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FLOORING -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-border-all"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">FLOORING</a></h3>
+                <div class="border-box"></div>
+                <p>2' x 2' Vitrified tiles for Living, dining, kitchen and all bedrooms with 4" skirting.<br>Ceramic Anti-skid tiles for Utilities & Balconies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DOORS -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-door-closed"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">DOORS</a></h3>
+                <div class="border-box"></div>
+                <p>Main Door: Teak wood frames with Teak wood shutters and brass fittings.<br>Internal Doors: Sal wood frames for bedrooms with Flush door shutters and necessary fittings.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WINDOWS -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="far fa-window-maximize"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">WINDOWS</a></h3>
+                <div class="border-box"></div>
+                <p>Three Track 90 series UPVC windows with mosquito mesh and M.S. Grills with enamel paint.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- KITCHEN -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-utensils"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">KITCHEN</a></h3>
+                <div class="border-box"></div>
+                <p>Granite kitchen platform with Stainless steel Sink and 2 feet height glazed tiles dadoing above the platform.<br>Provision for Washing machine & Dishwasher.<br>Provision for water purifier, Chimney and electrical hub.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CAR PARKING -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-car"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">CAR PARKING</a></h3>
+                <div class="border-box"></div>
+                <p>Covered car parking. Separate space allocated for each flat.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOILETS -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-toilet"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">TOILETS</a></h3>
+                <div class="border-box"></div>
+                <p>8 feet height Vitrified tile (2' x 4') dadoing & Anti-skid tiles flooring.<br>European commode, wash basin with tap fitting and taps (Parryware / Cera / Similar).</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ELECTRICAL -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-bolt"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">ELECTRICAL</a></h3>
+                <div class="border-box"></div>
+                <p>Concealed copper wiring (Anchor / similar wire) with Anchor/similar plate switches & necessary points in each room.<br>15 amps power plug points in Kitchen and Toilets, ELCB (Earth leaking circuit breakers).<br>Individual TV & Telephone points in Living Hall & Master bedroom.<br>AC point for all three bedrooms.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- PAINTING -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-paint-roller"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">PAINTING</a></h3>
+                <div class="border-box"></div>
+                <p>Inside: Two coats of Putty further added on with one coat of Primer and two coats of Asian tractor Emulsion paint.<br>Outside: one coat of primer with two coats Asian Ace paints, Enamel paint for doors and window grills.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WATER SUPPLY -->
+        <div class="col-12 col-md-6 col-lg-4 mb-3">
+          <div class="single-amenities-box-style2 d-flex flex-column h-100">
+            <div class="inner d-flex flex-column">
+              <div class="icon-holder text-center"><i class="fas fa-faucet"></i></div>
+              <div class="text-holder">
+                <h3 class="animate-h3"><a href="#">WATER SUPPLY</a></h3>
+                <div class="border-box"></div>
+                <p>24 hrs water deep Tube well, Sump & Over head tank.<br>Provision for Cauvery connection. Separate Cauvery water line provided in each unit kitchen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- LOBBY & LIFT -->
+         <!-- LOBBY & LIFT -->
+<div class="col-12 col-md-6 col-lg-4 mb-3">
+  <div class="single-amenities-box-style2 d-flex flex-column h-100">
+    <div class="inner d-flex flex-column">
+      <div class="icon-holder text-center"><i class="fas fa-couch"></i></div>
+      <div class="text-holder">
+        <h3 class="animate-h3"><a href="#">LOBBY & LIFT</a></h3>
+        <div class="border-box"></div>
+        <p>Luxuriously designed entrance lobby with premium finishes. Spacious lifts with high-quality interiors and anti-slip flooring.<br>2 high-speed elevators with emergency backup.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+       <!-- GENERATOR -->
+<div class="col-12 col-md-6 col-lg-4 mb-3">
+  <div class="single-amenities-box-style2 d-flex flex-column h-100">
+    <div class="inner d-flex flex-column">
+      <div class="icon-holder text-center"><i class="fas fa-battery-full"></i></div>
+      <div class="text-holder">
+        <h3 class="animate-h3"><a href="#">GENERATOR</a></h3>
+        <div class="border-box"></div>
+        <p>Standby power generator for common areas and emergency lighting. 100% power backup for lifts, water pumps, and common lighting.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FIRE SAFETY -->
+<div class="col-12 col-md-6 col-lg-4 mb-3">
+  <div class="single-amenities-box-style2 d-flex flex-column h-100">
+    <div class="inner d-flex flex-column">
+      <div class="icon-holder text-center"><i class="fas fa-fire-extinguisher"></i></div>
+      <div class="text-holder">
+        <h3 class="animate-h3"><a href="#">FIRE SAFETY</a></h3>
+        <div class="border-box"></div>
+        <p>Fire detection and alarm system in each floor.<br>Fire extinguishers in common areas and basements.<br>Sprinkler system in all floors and car parking areas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div></section>
         <!--Start place Style1 Area-->
 
 
@@ -977,31 +805,18 @@
                 <div class="row mb-5">
                     <div class="col-12">
                         <h1 class="text-white text-center mb-3">KEY PLAN</h1>
-                        <img src="./assets/images/keyplan-1.jpg" class="layer-outer wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <img src="./assets/images/key-plan.jpeg" class="layer-outer wow slideInDown"
+                            data-wow-delay="100ms" data-wow-duration="2500ms">
                     </div>
                 </div>
                 <div class="row mb-5">
                     <div class="col-12">
 
-                        <img src="./assets/images/keyplan-2.jpg" class="layer-outer wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <img src="./assets/images/floor-plan.jpeg" class="layer-outer wow slideInUp"
+                            data-wow-delay="100ms" data-wow-duration="2500ms">
                     </div>
                 </div>
-                <div class="row mb-5">
-                    <div class="col-lg-6">
-                        <img src="./assets/images/groundfloor-plan-1.jpg" class="layer-outer wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="./assets/images/typicalfloorplan.jpg" class="layer-outer wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <img src="./assets/images/plan.jpg" class="layer-outer wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    </div>
-                    <div class="col-lg-6">
-                        <img src="./assets/images/home.jpg" class="layer-outer wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                    </div>
-                </div>
+                
             </div>
         </div>
 
@@ -1011,7 +826,8 @@
 
                 <div class="row d-flex align-items-center justify-content-center">
                     <div class="col-md-6 mx-auto col-12">
-                        <div class="contact-inner-box clearfix layer-outer wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
+                        <div class="contact-inner-box clearfix layer-outer wow slideInLeft" data-wow-delay="100ms"
+                            data-wow-duration="2500ms">
 
                             <div class="contact-form">
                                 <div class="sec-title">
@@ -1067,11 +883,9 @@
                     </div>
 
                     <div class="col-md-6 col-12">
-                        <div class="h-100 layer-outer wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d31097.214262458954!2d77.64215718577405!3d13.026004673643977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s%23100%2C%204TH%20CROSS%2C%2010TH%20MAIN%2C%20NANDANAM%20COLONY%2C%20HORAMAVU%20MAIN%20ROAD%2C%20KALYANA%20NAGAR%2C%20BANGALORE-560043!5e0!3m2!1sen!2sin!4v1746529197757!5m2!1sen!2sin"
-                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="h-100 layer-outer wow slideInRight" data-wow-delay="100ms"
+                            data-wow-duration="2500ms">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31097.37911046757!2d77.69361596125687!3d13.024691736897685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae104e8ee2998f%3A0x9dd8fd04eabb72d0!2sAshok%20Nagar%2C%20Rifco%20Shantiniketan%20Layout%2C%20Battarahalli%2C%20Bengaluru%2C%20Karnataka%20560049!5e0!3m2!1sen!2sin!4v1746788481234!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                     </div>
 
@@ -1099,8 +913,8 @@
                                             <a href="#home"><img src="assets/images/logo.png" alt="Awesome Footer Logo"
                                                     title="Logo"></a>
                                         </div>
-                                        <p class="text-white">Crafted for comfort, designed for peace — where every
-                                            detail reflects quality living in harmony with nature.</p>
+                                        <p class="text-white">Experience modern living in a well-connected and luxurious space.
+Your dream home awaits with comfort, elegance, and convenience.
                                         </p>
                                     </div>
                                 </div>
@@ -1143,14 +957,15 @@
                                             <ul>
                                                 <li class="nav-item">
                                                     <a href="" class="nav-link">
-                                                        <i class="fas fa-map-marker-alt"></i> #100, 4TH CROSS, 10TH
-                                                        MAIN, NANDANAM COLONY, HORAMAVU MAIN ROAD, KALYANA NAGAR,
-                                                        BANGALORE-560043
+                                                        <i class="fas fa-map-marker-alt"></i> Ashok Nagar, Medahalli, KR Puram, Bangalore - 560036, Karnataka, India
+
+
+
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="tel:8951006278" class="nav-link">
-                                                        <i class="fa-solid fa-phone pe-2"></i> 8951006278
+                                                    <a href="tel:9071177117" class="nav-link">
+                                                        <i class="fa-solid fa-phone pe-2"></i> 9071177117
                                                     </a>
                                                 </li>
                                             </ul>
@@ -1184,7 +999,7 @@
                     <div class="container">
                         <div class="outer-box">
                             <div class="copyright-text">
-                                <p>2025 All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Booking
+                                <p><span id="year"></span> All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Booking
                                         Guide</a></p>
                             </div>
 
@@ -1257,7 +1072,7 @@
         });
       </script> -->
 
-    <audio id="background-audio">
+    <!-- <audio id="background-audio">
         <source src="./assets/images/audio.mp3" type="audio/mp3" />
         Your browser does not support the audio tag.
     </audio>
@@ -1289,7 +1104,50 @@
                 });
             }
         });
+    </script> -->
+    <script>
+        const dateObj = new Date
+        document.getElementById('year').innerHTML=dateObj.getFullYear()
     </script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const options = {
+      threshold: 0.3  // Trigger when 30% of the element is in view
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const title = entry.target.querySelector('.title h3');
+          title.classList.add('animate-in'); // Apply animation class
+          observer.unobserve(entry.target); // Stop observing after animation
+        }
+      });
+    }, options);
+
+    document.querySelectorAll('.single-amenities-box-style2').forEach(section => {
+      observer.observe(section);
+    });
+  });
+</script>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Remove if you only want it once
+      }
+    });
+  }, {
+    threshold: 0.3 // Adjust how much of the element needs to show
+  });
+
+  document.querySelectorAll('.animate-h3').forEach(h3 => {
+    observer.observe(h3);
+  });
+</script>
+
 
 
 </body>
